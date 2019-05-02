@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon_24dp"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="Sincronización"
+        android:id="@+id/sincro">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_cloud_download_white_24dp"
+                android:title="Actualizar Data" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_cloud_upload_black_24dp"
+                android:title="Subir Data" />
+        </menu>
+    </item>
+
+    <item android:title="Sesión"
+        android:id="@+id/sesion">
+        <menu>
+            <item
+                android:id="@+id/nav_close"
+                android:icon="@drawable/ic_exit_to_app_back_24dp"
+                android:title="@string/cerrarsesion" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
